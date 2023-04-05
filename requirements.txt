@@ -1,0 +1,7 @@
+pip
+pandas
+scikit-learn
+flask
+numpy
+tensorflow_datasets
+tensorflow

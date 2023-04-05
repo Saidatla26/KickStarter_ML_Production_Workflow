@@ -1,0 +1,19 @@
+{
+  "input_data_attributes": {
+    "data_path": "./input_data/kickstarter_train_test_onehot.csv",
+    "y_col": "usd_smooth_pledged_per_day",
+    "index_col": "ID",
+    "test_size": 64000,
+    "random_state": 212
+  },
+  "model_train_attributes": {
+    "batch_size": 256,
+    "epochs": 15,
+    "validation_split": 0.1
+  },
+  "model_build_attributes": {
+    "optimizer": "adam",
+    "loss": "MeanSquaredError",
+    "metrics": "MeanSquaredError"
+  }
+}
